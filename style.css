@@ -1,0 +1,133 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+nav ul #logo h1{
+  color: #d24092;
+}
+
+nav ul #links{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul #links li{
+  font-weight: 500;
+  color: grey;
+}
+nav ul #links li:hover{
+  color: black;
+  transition: 0.03s;
+  cursor: pointer;
+}
+
+nav ul #cta{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+  color: #d24092;
+  font-weight: 500;
+}
+
+nav ul #cta button{
+  color: #d24092;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px 25px;
+  border-radius: 50px;
+  border: 1px solid #d24092;
+  cursor: pointer;
+}
+
+nav ul #cta p{
+  cursor: pointer;
+}
+
+hr{
+  border: none;
+  background-color: #e7e7e7;
+  height: 1px;
+}
+
+#hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+  text-align: center;
+  gap: 20px;
+}
+#hero h1{
+  font-size: 40px;
+}
+#hero p{
+  color: grey;
+}
+
+#hero button{
+  background-color: #d24092;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+#cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  gap: 20px;
+}
+#cards div{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 150px;
+  width: 300px;
+  background-color: #613c75;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  gap: 20px;
+}
+#cards div span{
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  font-size: 40px;
+  font-weight: 500;
+}
+#cards div p{
+  color: #e7e7e7;
+}
+
+#cards div:nth-child(2){
+  background-color: #536273;
+}
+
+#cards div:nth-child(3){
+  background-color: #a38d8d;
+}
+
+#cards div:nth-child(4){
+  background-color: #80a49b;
+}
